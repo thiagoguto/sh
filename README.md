@@ -4,4 +4,6 @@
 ### Atualizar CONTAINER
 `` apt update && apt install git nano wget -y ``
 ### Baixar script
-``wget https://raw.githubusercontent.com/thiagoguto/sh/master/docker-drupal-up-instal.sh && ./docker-drupal-up-instal.sh``
+``wget https://raw.githubusercontent.com/thiagoguto/sh/master/docker-drupal-up-instal.sh``
+### Executar script
+``./docker-drupal-up-instal.sh``
