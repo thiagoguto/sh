@@ -13,5 +13,3 @@ docker run --name $NOME -p $PORTA:80 \
 -d drupal$VERSAO
 echo "acessando container"
 docker exec -it $NOME /bin/bash
-echo "atualizando Container"
-apt update && apt install nano git wget -y
