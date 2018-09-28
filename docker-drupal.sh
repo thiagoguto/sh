@@ -11,3 +11,7 @@ docker run --name $NOME -p $PORTA:80 \
 --link $MYSQL:mysql \
 -v /Users/admin/Dev/drupal/temas/$NOME:/var/www/html/themes/custom \
 -d drupal$VERSAO
+echo "acessando container"
+docker exec -it $NOME /bin/bash
+echo "atualizando Container"
+apt update && apt install nano git wget -y
