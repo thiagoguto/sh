@@ -7,3 +7,4 @@
 ``wget https://raw.githubusercontent.com/thiagoguto/sh/master/docker-drupal-up-instal.sh``
 ### Executar script
 ``chmod +x ./docker-drupal-up-instal.sh``
+``./docker-drupal-upinstal.sh``
