@@ -8,4 +8,4 @@
 ### Executar script
 ``chmod +x ./docker-drupal-up-instal.sh``
 <br />
-``./docker-drupal-upinstal.sh``
+``./docker-drupal-up-instal.sh``
